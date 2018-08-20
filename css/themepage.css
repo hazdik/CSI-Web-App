@@ -1,0 +1,18 @@
+.design
+{
+	background-color: powderblue;
+	/*#12bbad*/
+	padding: 15px;
+	color:silver;
+}
+.design-inside
+{
+	background-color: powderblue;
+	padding: 10px;
+	color:silver;
+}
+body
+{
+	background-color: #f3f3f3;
+}
+
