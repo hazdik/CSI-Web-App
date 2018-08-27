@@ -4,16 +4,21 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.js" integrity="sha256-fNXJFIlca05BIO2Y5zh1xrShK3ME+/lYZ0j+ChxX2DA=" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/core.js" integrity="sha256-YCbKJH6u4siPpUlk130udu/JepdKVpXjdEyzje+z1pE=" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/esm/popper.min.js" integrity="sha256-DzpvKOEeOJNtINqa/4ECj7aloa320UfT+ElBT+qloFc=" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js" integrity="sha256-uWtSXRErwH9kdJTIr1swfHFJn/d/WQ6s72gELOHXQGM=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js" integrity="sha256-W9FML0cw6SfScX3k0Z8iTWhaZGSEUrR3R3KWfRA6lnI=" crossorigin="anonymous"></script>
 <script type="text/javascript">
 	function changeclass(obj)
 	{
-		document.getElementById(obj).className="nav-link act";
+		document.getElementById(obj).className="navlink act";
 	}
 	function checkinternetconnection()
 	{
 		if(navigator.onLine)
 			return true;
 		return false;
-	}
+	}      
+</script>
+<script type="text/javascript">
+	$(document).ready(function(){
+    $('.sidenav').sidenav();
+  	});
 </script>
