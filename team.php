@@ -1,11 +1,11 @@
 <html>
 	<head>
-		<title>Achievements</title>
+		<title>Our Team</title>
 		<?php
 			include 'headerfile.php';
 		?>
 	</head>
-	<body style="background-color: silver;" onload=changeclass("achievements")>
+	<body style="background-color: silver;" onload=changeclass("team")>
 		<?php
 			include 'headerbody.php';
 		?>

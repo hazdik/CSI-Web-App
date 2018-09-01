@@ -6,8 +6,16 @@
 		require("connection.php");
 		include 'headerfile.php';
 	?>
+	<style type="text/css">
+		#eventback
+		{
+			background-color: white;
+			padding:10px 10px; 
+			border-radius: 10px;
+		}
+	</style>
 </head>
-<body onload=changeclass("events")>
+<body style="background-color: silver;" onload=changeclass("events")>
 	<?php
 		include 'headerbody.php';
 		$cn=getconnection();
@@ -16,7 +24,7 @@
 	?>
 	<div class="py-3">
 		<div class="container">
-			<div class="row">
+			<div id="eventback" class="row">
 				<div class="col-md-12">
 				<h1 class="design">News & Events</h1>
 				<br>
@@ -54,7 +62,7 @@
 		</div>
 	</div>
 	<?php
-		include 'js/jspage.php';
+		include 'jspage.php';
 	?>
 </body>
 </html>

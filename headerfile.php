@@ -4,24 +4,35 @@
 <style id="inter" type="text/css">
 	.navlink
 	{
-		color:#12bbad;
+		color:#242582;
 		text-decoration: none;
-		/*color:#4f70ce;
+		/*color:#4f70ce;#0B6623
 		padding: 0px 10px;*/
 	}
 	
 	.act,.navlink:hover
 	{
 		color:#f3f3f3;
-		background-color: powderblue;
+		background-color:#2F2FA2 ;
 		border-radius: 5px;
 		text-decoration: none;
-		/*padding: 0px 10px;
+		/*padding: 0px 10px;#4CBB17
 		background-color: #12bbad;*/
-	}		 
+	}	
+	body
+	{
+		background: silver;
+	}
+
+</style>
+<style type="text/css">
+	.corousel
+	{
+		height: 700px !important;
+	}
 </style>
 <link rel="stylesheet" href="css/themepage.css" type="text/css">
+<link rel="stylesheet" href="css/materialize.min.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha256-NuCn4IvuZXdBaFKJOAcsU2Q3ZpwbdFisd5dux4jkQ5w=" crossorigin="anonymous" />
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css" integrity="sha256-tKn8A2U9uuN5rPr3gh4A9FYMJkarrzLVyks7aS/ZfBU=" crossorigin="anonymous" />
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">

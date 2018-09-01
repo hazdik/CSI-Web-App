@@ -1,18 +1,47 @@
 .design
 {
-	background-color: powderblue;
-	/*#12bbad*/
-	padding: 15px;
-	color:silver;
+	border-color: #5d8ffc;
+	text-transform: uppercase;
+	font-weight: 700;
+
 }
 .design-inside
 {
-	background-color: powderblue;
-	padding: 10px;
-	color:silver;
-}
-body
-{
-	background-color: #f3f3f3;
+	background-color: #00A652;
+	color: #f3f3f3;
+	min-width: 200px;
+	display: inline-block;
+	padding: 5px 20px;
+	font-weight:600; 
+	text-transform: uppercase;
 }
 
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px white; 
+    border-radius: 10px;
+    background-color: #f3f3f3;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #2F2FA2; 
+    border-radius: 10px;
+}
+
+
+/* colorpatterns
+green1:#4CBB17;
+green2:#0B6623;
+green3:#00A652;
+blue1:#2F2FA2;
+blue2:#242582;
+blue3:#5d8ffc;
+black1:#000F17;
+black2:#494949;
+black3:#2F2B28;
+black4:#2B2724;
+*/
+/*Special green:#12bbad*/
