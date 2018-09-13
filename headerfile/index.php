@@ -6,8 +6,7 @@
 	{
 		color:#fff;
 		text-decoration: none;
-		/*color:#4f70ce;#0B6623
-		padding: 0px 10px;*/
+		padding: 10dp;
 	}
 	
 	.act,.navlink:hover
@@ -18,14 +17,8 @@
 	    text-decoration: none;
 	    border-bottom: 2.5px solid #f3f3f3;
 	    background: none;
-    	transition:.2s 
-    	/*transform: scaleX(0);*/
-		/*color:#f3f3f3;
-		background-color:#2F2FA2 ;
-		border-radius: 5px;
-		text-decoration: none;*/
-		/*padding: 0px 10px;#4CBB17
-		background-color: #12bbad;*/
+    	transition:.2s;
+    	padding: 10dp;
 	}	
 	body
 	{

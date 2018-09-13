@@ -1,0 +1,42 @@
+<?php
+session_start();
+if($_SERVER['REQUEST_METHOD']=='POST')
+{
+	require("../connection/index.php");
+	$cn=getconnection();
+	$user=$_POST["uname"];
+	$pass=$_POST["pass"];
+	$hashuser=md5($user);
+	$hashpass=md5($pass);
+	$sql_row="select * from admindetail";
+	$rows=mysqli_query($cn,$sql_row);
+	if($row=mysqli_fetch_array($rows))
+	{
+		if(($user==($row['email'])) && ($pass==($row['password'])))
+		{
+			$sessionname="admin";
+			$sqlupdate="update admindetail set activestatus=1";
+			mysqli_query($cn,$sqlupdate);
+			$_SESSION["currentuser"]=$sessionname;
+			header("location:adminpage.php");	
+		}
+		else
+		{
+			header("location:index.php?status=1");
+		}
+	}
+	else
+	{
+		header("location:index.php?status=2");
+	}
+	mysqli_close($cn);
+}
+else
+{
+?>
+	<script>
+		window.location.href="index.php";
+	</script>
+<?php
+}
+?>

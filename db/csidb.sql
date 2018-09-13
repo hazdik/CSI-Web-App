@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Aug 11, 2018 at 12:52 PM
+-- Generation Time: Sep 13, 2018 at 05:36 PM
 -- Server version: 5.7.20-log
 -- PHP Version: 7.2.0
 
@@ -21,6 +21,25 @@ SET time_zone = "+00:00";
 --
 -- Database: `csidb`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `admindetail`
+--
+
+CREATE TABLE `admindetail` (
+  `email` varchar(35) NOT NULL,
+  `password` varchar(20) NOT NULL,
+  `activestatus` int(1) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `admindetail`
+--
+
+INSERT INTO `admindetail` (`email`, `password`, `activestatus`) VALUES
+('presidentcsisvce@gmail.com', 'adminpresident123', 0);
 
 -- --------------------------------------------------------
 
