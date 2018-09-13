@@ -5,7 +5,7 @@
 			include '../headerfile/index.php';
 		?>
 	</head>
-	<body style="background-color: rgba(152,216,244,.25);" onload=changeclass("team")>
+	<body style="background-color: rgb(248, 248, 248);" onload=changeclass("team")>
 		<?php
 			include '../headerbody/index.php';
 		?>
