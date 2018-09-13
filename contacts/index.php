@@ -2,7 +2,7 @@
 	<head>
 		<title>CSI-Home</title>
 		<?php
-			include 'headerfile.php';
+			include '../headerfile/index.php';
 		?>
 		<style type="text/css">
 			#divback
@@ -12,9 +12,9 @@
 			}
 		</style>
 	</head>
-	<body style="background-color: silver;" onload=changeclass("contacts")>
+	<body style="background-color: rgb(248, 248, 248);" onload=changeclass("contacts")>
 		<?php
-			include 'headerbody.php';
+			include '../headerbody/index.php';
 		?>
 		<div class="py-3">
 			<div class="container">
@@ -48,7 +48,7 @@
 			</div>
 		</div>
 		<?php
-			include 'jspage.php';
+			include '../js/index.php';
 		?>
 	</body>
 </html>

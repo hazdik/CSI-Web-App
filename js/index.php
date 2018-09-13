@@ -1,7 +1,7 @@
-<script src="js/jquery.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/materialize.min.js"></script>
-<script type="text/javascript">
+<script src="../js/jquery.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/materialize.min.js"></script>
+<script type="../text/javascript">
 	function changeclass(obj)
 	{
 		document.getElementById(obj).className="navlink act";

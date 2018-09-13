@@ -3,8 +3,8 @@
 	<title>Events</title>
 
 	<?php
-		require("connection.php");
-		include 'headerfile.php';
+		require("../connection/index.php");
+		include '../headerfile/index.php';
 	?>
 	<style type="text/css">
 		#eventback
@@ -15,9 +15,9 @@
 		}
 	</style>
 </head>
-<body style="background-color: silver;" onload=changeclass("events")>
+<body style="background-color: rgb(248, 248, 248);" onload=changeclass("events")>
 	<?php
-		include 'headerbody.php';
+		include '../headerbody/index.php';
 		$cn=getconnection();
 		$sql="select * from events";
 		$rowsquery=mysqli_query($cn,$sql);
@@ -62,7 +62,7 @@
 		</div>
 	</div>
 	<?php
-		include 'jspage.php';
+		include '../js/index.php';
 	?>
 </body>
 </html>

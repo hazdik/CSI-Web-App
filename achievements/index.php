@@ -2,12 +2,12 @@
 	<head>
 		<title>Achievements</title>
 		<?php
-			include 'headerfile.php';
+			include '../headerfile/index.php';
 		?>
 	</head>
-	<body style="background-color: silver;" onload=changeclass("achievements")>
+	<body style="background-color: rgb(248, 248, 248);" onload=changeclass("achievement")>
 		<?php
-			include 'headerbody.php';
+			include '../headerbody/index.php';
 		?>
 		<div class="py-3">
 			<div class="container">
@@ -19,7 +19,7 @@
 			</div>
 		</div>
 		<?php
-			include 'jspage.php';
+			include '../js/index.php';
 		?>
 	</body>
 </html>
